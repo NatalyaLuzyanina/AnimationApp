@@ -15,10 +15,6 @@ class ViewController: UIViewController {
     private let animations = Animation.getAnimations()
     private var index = 0
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     @IBAction func runAnimation(_ sender: UIButton) {
         
         getAnimation(for: springAnimationView, animation: animations[index])
